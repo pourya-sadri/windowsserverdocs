@@ -37,7 +37,7 @@ To perform this procedure, you must be a member of Domain Admins.
 
 5.  In **Add Location**, in **Location**, type `http://pki.corp.contoso.com/pki/<CaName><CRLNameSuffix><DeltaCRLAllowed>.crl`, and then click **OK**. This returns you to the CA properties dialog box.
 
-6.  On the **Extensions** tab, select the following check boxes:
+6.  On the **Extensions** tab, select the following checkboxes:
 
     -   **Include in CRLs. Clients use this to find the Delta CRL locations**
 
@@ -47,7 +47,7 @@ To perform this procedure, you must be a member of Domain Admins.
 
 8.  In **Add Location**, in **Location**, type `file://\\pki.corp.contoso.com\pki\<CaName><CRLNameSuffix><DeltaCRLAllowed>.crl`, and then click **OK**. This returns you to the CA properties dialog box.
 
-9. On the **Extensions** tab, select the following check boxes:
+9. On the **Extensions** tab, select the following checkboxes:
 
     -   **Publish CRLs to this location**
 
